@@ -44,7 +44,7 @@
             </objects>
             <point key="canvasLocation" x="2360.8695652173915" y="695.75892857142856"/>
         </scene>
-        <!--設定-->
+        <!--Settings View Controller-->
         <scene sceneID="IRs-ol-4oz">
             <objects>
                 <viewController id="8AN-9h-T1k" customClass="SettingsViewController" customModule="DietApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -54,11 +54,11 @@
                         <viewLayoutGuide key="safeArea" id="499-cf-yd9"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="設定" image="gearshape" catalog="system" id="yok-7R-Obr"/>
+                    <navigationItem key="navigationItem" id="IEs-FP-PoX"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QSw-Qy-dib" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="572" y="1392"/>
+            <point key="canvasLocation" x="1451" y="1396"/>
         </scene>
         <!--Top View Controller-->
         <scene sceneID="42X-Xj-WhJ">
@@ -87,7 +87,7 @@
                     <connections>
                         <segue destination="3an-lQ-V07" kind="relationship" relationship="viewControllers" id="BL4-C8-gr4"/>
                         <segue destination="0pI-mw-1KE" kind="relationship" relationship="viewControllers" id="ehO-hi-S0E"/>
-                        <segue destination="8AN-9h-T1k" kind="relationship" relationship="viewControllers" id="jfU-KF-qc7"/>
+                        <segue destination="Kt9-yO-cdr" kind="relationship" relationship="viewControllers" id="2IE-aa-ic1"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vtR-cH-93i" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -139,6 +139,29 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IYy-1c-42p" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="570" y="696"/>
+        </scene>
+        <!--設定-->
+        <scene sceneID="XuP-Cd-o0A">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Kt9-yO-cdr" customClass="SettingsNavigatonController" customModule="DietApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="設定" image="gearshape" catalog="system" id="yok-7R-Obr"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="zuD-uD-VH9">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <navigationBarAppearance key="standardAppearance"/>
+                        <navigationBarAppearance key="scrollEdgeAppearance">
+                            <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                        </navigationBarAppearance>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="8AN-9h-T1k" kind="relationship" relationship="rootViewController" id="nQ3-KD-E5i"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iKa-yW-sda" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="570" y="1396"/>
         </scene>
     </scenes>
     <resources>

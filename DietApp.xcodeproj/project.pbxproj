@@ -10,6 +10,7 @@
 		10933B16DE353C6D211FDCB3 /* Pods_DietAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D807061C2EDC6DDA9693451C /* Pods_DietAppTests.framework */; };
 		28FEC79EA2A87BC01F1C679F /* Pods_DietApp_DietAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0B35940D0BF33F93F87E369 /* Pods_DietApp_DietAppUITests.framework */; };
 		60A4C6E95A42A5E6FBC4EC82 /* Pods_DietApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B7CEEB90849C4649195C6F /* Pods_DietApp.framework */; };
+		FA0A462B2A9F127C00675FFA /* SettingsNavigatonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0A462A2A9F127C00675FFA /* SettingsNavigatonController.swift */; };
 		FA0F9ECF2A2F0DEC00C7E888 /* GraphPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0F9ECE2A2F0DEC00C7E888 /* GraphPageViewController.swift */; };
 		FA0F9ED12A3016D100C7E888 /* UITabBarController+Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0F9ED02A3016D100C7E888 /* UITabBarController+Orientation.swift */; };
 		FA11122C2A5923F6007353EA /* IndexSetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA11122B2A5923F6007353EA /* IndexSetter.swift */; };
@@ -91,6 +92,7 @@
 		D807061C2EDC6DDA9693451C /* Pods_DietAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DietAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB772DAE10CFF85B21588E86 /* Pods-DietAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DietAppTests.release.xcconfig"; path = "Target Support Files/Pods-DietAppTests/Pods-DietAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		F33E63A5ACE3D0B165D13D9B /* Pods-DietAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DietAppTests.debug.xcconfig"; path = "Target Support Files/Pods-DietAppTests/Pods-DietAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA0A462A2A9F127C00675FFA /* SettingsNavigatonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsNavigatonController.swift; sourceTree = "<group>"; };
 		FA0F9ECE2A2F0DEC00C7E888 /* GraphPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphPageViewController.swift; sourceTree = "<group>"; };
 		FA0F9ED02A3016D100C7E888 /* UITabBarController+Orientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITabBarController+Orientation.swift"; sourceTree = "<group>"; };
 		FA11122B2A5923F6007353EA /* IndexSetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexSetter.swift; sourceTree = "<group>"; };
@@ -310,6 +312,7 @@
 		FA41A2FE2A1C8973008DC83E /* SettingsPage */ = {
 			isa = PBXGroup;
 			children = (
+				FA0A462A2A9F127C00675FFA /* SettingsNavigatonController.swift */,
 				FA41A2F32A1C877E008DC83E /* SettingsViewController.swift */,
 			);
 			path = SettingsPage;
@@ -672,6 +675,7 @@
 				FA3142742A4194F300254D60 /* GraphNavigationController.swift in Sources */,
 				FA41A2EE2A1C8531008DC83E /* TopPageViewController.swift in Sources */,
 				FA42FA3A2A70B2DC00C60F9E /* DateRangeCalculator.swift in Sources */,
+				FA0A462B2A9F127C00675FFA /* SettingsNavigatonController.swift in Sources */,
 				FA11122C2A5923F6007353EA /* IndexSetter.swift in Sources */,
 				FAFF6F592A21ACE40092A1A3 /* WeightTableViewCell.swift in Sources */,
 				FA41A2F42A1C877E008DC83E /* SettingsViewController.swift in Sources */,

@@ -11,10 +11,6 @@ class SettingsView: UIView {
   
   let cellIdentifiers = ["ThemeColorTableViewCell","NotificationTableViewCell"]
   
-  @IBOutlet weak var navigationBar: UINavigationBar!
-  
-  @IBOutlet weak var navigationItem: UINavigationItem!
-  
   @IBOutlet weak var tableView: UITableView!{
     didSet{
       //各セルの登録
@@ -47,12 +43,4 @@ class SettingsView: UIView {
     
     self.addSubview(view)
   }
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
-    }
-    */
-
 }
